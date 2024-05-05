@@ -186,6 +186,16 @@
                     opacity: 1;
                 }
             }
+
+            .hello-world-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            z-index: 9999;
+        }
         </style>
         <script>
             window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -217,6 +227,10 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="hello-world-container">
+            <p>Hello World!</p>
         </div>
 
         <script src="./script.js"></script>
